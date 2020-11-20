@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Modak';
+    src: url('./fonts/modak/Modak.woff2') format('woff2'),
+        url('./fonts/modak/Modak.woff') format('woff'),
+        url('./fonts/modak/Modak.ttf') format('truetype'),
+        url('./fonts/modak/Modak.svg#Modak') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.content{
+    padding: 16px;
+}
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+.titletext {
+    font-size: 7vw;
+    color: rgb(95, 179, 99);
+    text-shadow: 2px 2px white;
+
+    text-align: center;
+    font-family: 'Modak';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#desc > p{
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    font-size: 3vh;
+}
+
+.togglebars{
+    height: max-content;
+}
