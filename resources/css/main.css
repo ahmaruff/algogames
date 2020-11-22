@@ -2,28 +2,12 @@
     font-family: 'Modak';
     src: url('./fonts/modak/Modak.woff2') format('woff2'),
         url('./fonts/modak/Modak.woff') format('woff'),
-        url('./fonts/modak/Modak.ttf') format('truetype'),
-        url('./fonts/modak/Modak.svg#Modak') format('svg');
+        url('./fonts/modak/Modak.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-
-.content{
-    padding: 16px;
-}
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 102px;
-  }
 .titletext {
     font-size: 7vw;
     color: rgb(95, 179, 99);
@@ -45,4 +29,15 @@
 
 .togglebars{
     height: max-content;
+}
+
+hr.dotted {
+    border-top: 3px dotted #bbb;
+}
+
+.blocklyDiv{
+    min-height: 400px;
+}
+.canvas{
+    min-height: 400px;
 }
